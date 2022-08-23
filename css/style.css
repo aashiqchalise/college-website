@@ -75,13 +75,13 @@ body {
 .home .home-banner1 {
     background-image:
     linear-gradient(to left, rgba(245, 246, 252, 0), rgba(2, 58, 168, 0.45)),
-    url(/images/tubg3.jpg);
+    url(../images/tubg3.jpg);
 }
 
 .home .home-banner2 {
     background-image:
     linear-gradient(to left, rgba(245, 246, 252, 0), rgba(2, 58, 168, 0.45)),
-    url(/images/tubg2.jpg);
+    url(../images/tubg2.jpg);
 }
 
 .home .home-banner .home-banner-text h1 {
@@ -295,7 +295,7 @@ body {
 /* Mission home section */
 .mission .mission-background {
     background: linear-gradient(to top, rgba(245, 246, 252, 0), rgba(2, 58, 168, 0.55)),
-    url(/images/about-page/mission-bg.png) no-repeat center/cover;
+    url(../images/about-page/mission-bg.png) no-repeat center/cover;
     /* background: url(/images/about-page/mission-bg.png) no-repeat center/cover; */
     width: 100%;
     height: 463px;
@@ -335,7 +335,7 @@ body {
 
 .program .program-background {
     background: linear-gradient(to top, rgba(245, 246, 252, 0), rgba(2, 58, 168, 0.55)),
-    url(/images/programs/program-bg.png) no-repeat center/cover;
+    url(../images/programs/program-bg.png) no-repeat center/cover;
     /* background: url(/images/programs/program-bg.png) no-repeat center/cover; */
     width: 100%;
     height: 463px;
@@ -354,7 +354,7 @@ body {
 /* -----------------------------------------   Facilities Page styling   ------------------------------ */
 
 .facility .facility-background {
-    background: url(/images/facilities/facilities-bg.png) no-repeat center/cover;
+    background: url(../images/facilities/facilities-bg.png) no-repeat center/cover;
     width: 100%;
     height: 463px;
 }
@@ -380,7 +380,7 @@ body {
 
 .gallery .gallery-background {
     background: linear-gradient(to top, rgba(245, 246, 252, 0), rgba(2, 58, 168, 0.55)),
-    url(/images/gallery/gallery-bg.png) no-repeat center/cover;
+    url(../images/gallery/gallery-bg.png) no-repeat center/cover;
     /* background: url(/images/gallery/gallery-bg.png) no-repeat center/cover; */
     width: 100%;
     height: 463px;
@@ -428,7 +428,7 @@ body {
 
 .contact .contact-background {
     background: linear-gradient(to top, rgba(245, 246, 252, 0.1), rgba(2, 58, 168, 0.6)),
-    url(/images/contactus/contact-bg.png) no-repeat center/cover;
+    url(../images/contactus/contact-bg.png) no-repeat center/cover;
     /* background: url(/images/contactus/contact-bg.png) no-repeat center/cover; */
     width: 100%;
     height: 463px;
@@ -503,7 +503,7 @@ body {
 
 .admission .admission-background {
     background: linear-gradient(to top, rgba(245, 246, 252, 0), rgba(2, 58, 168, 0.60)),
-    url(/images/admission/admission-bg.png) no-repeat center/cover;
+    url(../images/admission/admission-bg.png) no-repeat center/cover;
     /* background: url(/images/admission/admission-bg.png) no-repeat center/cover; */
     width: 100%;
     height: 463px;
@@ -550,7 +550,7 @@ body {
 
 .notice .notice-background {
     background: linear-gradient(to top, rgba(245, 246, 252, 0), rgba(2, 58, 168, 0.60)),
-    url(/images/notice/notice-bg.png) no-repeat center/cover;
+    url(../images/notice/notice-bg.png) no-repeat center/cover;
     /* background: url(/images/notice/notice-bg.png) no-repeat center/cover; */
     width: 100%;
     height: 463px;
