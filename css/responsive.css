@@ -9,12 +9,12 @@
 
     /* Navbar Styling */
     #header .logo {
-        margin-left: 10px;
+        margin-left: 1px;
     }
 
     #header .logo img {
         height: 75px;
-        width: 250px;
+        width: 70px;
     }
 
     #header .navbar-nav .nav-item .nav-link {
@@ -48,8 +48,9 @@
 
     /* footer styling */
     .footer-part .footer .second-footer-div .logo img {
-        height: 75px;
-        width: 250px;
+        height: 70px;
+        width: 70px;
+        font-size: 23px;
     }
      /* -----------    Overall Background style      ----------- */
      #overall-bg{
@@ -74,6 +75,9 @@
 @media (max-width: 425px) {
 
     /* Footer Styling */
+    #header .logo a{
+        font-size: 25px;
+    }
     .footer-part .first-footer-color .left-div {
         text-align: center;
     }
@@ -95,6 +99,10 @@
     #middle-card .middle-card .row img{
         height: 40px;
      }
+    .home .home-banner1,
+    .home .home-banner2 {
+    background-position: 50% center;
+}
 
     /* -----------    Overall Background style      ----------- */
     #overall-bg{
@@ -117,13 +125,27 @@
 
 
 
-@media (max-width: 375px) {}
+@media (max-width: 375px) {
+    #header .logo img {
+        height: 68px;
+        width: 63px;
+    }
+    #header .logo a{
+        font-size: 24px;
+    }
+    .footer-part .second-footer-color .logo span{
+        font-size: 24px;
+    }
+}
 
 
 
 @media (max-width: 320px) {
     #header .logo img {
-        height: 75px;
-        width: 215px;
+        height: 64px;
+        width: 60px;
+    }
+    #header .logo a{
+        font-size: 20px;
     }
 }
