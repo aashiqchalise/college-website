@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500&display=swap');
+/* font-family: 'Cairo', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+body {
+    overflow-x: hidden !important;
+}
+.textdecor {
+    text-align: justify;
+}
+/* ----------------------------------------   Home Page Styling   ---------------------------------------- */
+/* Navbar styling */
+
+#header .logo img {
+    height: 80px;
+    width: 85px;
+}
+#header .logo a {
+    font-size: 26px;
+    font-weight: 600;
+    color: #023AA2;
+}
+
+#header .logo {
+    margin-left: 30px;
+}
+
+#header .fixed-top {
+    box-shadow: rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#header .navbar-nav .nav-item .nav-link {
+    color: black;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Cairo', sans-serif;
+}
+
+#header .navbar-nav .nav-item .nav-link:hover,
+#header .navbar-nav .nav-item .nav-link:active {
+    color: #6c6aeb;
+}
+
+#header .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+#header .navbar .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background-color: #fff;
+
+}
+
+
+/* Home Section */
+
+.home .home-banner1,
+.home .home-banner2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% center;
+    height: 500px;
+    min-height: 65px;
+    position: relative;
+}
+
+.home .home-banner1 {
+    background-image:
+    linear-gradient(to left, rgba(245, 246, 252, 0), rgba(2, 58, 168, 0.45)),
+    url(/images/tubg3.jpg);
+}
+
+.home .home-banner2 {
+    background-image:
+    linear-gradient(to left, rgba(245, 246, 252, 0), rgba(2, 58, 168, 0.45)),
+    url(/images/tubg2.jpg);
+}
+
+.home .home-banner .home-banner-text h1 {
+    font-size: 600;
+    
+}
+.home .home-banner .home-banner-text {
+    position: absolute;
+    top: 17%;
+    left: 9%;
+    transform: translate(-110% -50%);
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+}
+
+.home .home-banner .home-banner-text a {
+    display: inline-block;
+    text-decoration: none;
+    background: #fff;
+    color: #023AA2;
+    font-size: 18px;
+    padding: 7px 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+/* .home .carousel-indicators[data-bs-target]{
+    background-color: #6c6aeb;
+    width: 2.5rem;
+    height: 0.313rem;
+} */
+
+
+/* card Section */
+.middle-card .child{
+    display: inline;
+   
+}
+
+#middle-card .middle-card {
+    /* width: 85%; */
+    margin-top: -50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+#middle-card .middle-card .row img{
+   height: 50px;
+}
+#middle-card .middle-card .card-text h4{
+    color:black;
+    margin-bottom: 0%;
+    font-weight: 600;
+ }
+ #middle-card .middle-card .card-text p{
+    color:black;
+    margin-bottom: 0%;
+ }
+
+
+/* About section starting */
+.about .about-text {
+    font-family: 'Cairo', sans-serif;
+}
+
+.about .about-text strong {
+    color: #023AA2;
+}
+
+.about .about-text h1 {
+    font-weight: 600;
+    color: black;
+}
+
+
+
+.about .about-text a {
+    text-decoration: none;
+    display: inline-block;
+    background: #023AA2;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 7px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 1px solid #023AA2;
+    transition: all 0.3s ease;
+}
+
+.about .about-text a:hover {
+
+    background: none;
+    color: #023AA2;
+
+}
+
+.about .row .about-img img {
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* why choose us section */
+
+.choose .text-center h1 {
+    font-weight: 600;
+}
+
+.choose .choose-card .card-body h3 {
+    font-weight: 600;
+}
+.choose .choose-card .card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+/* Testimonials section */
+.testimonials .testimonials-header h1 {
+    font-weight: 600;
+    color: #023AA2;
+}
+
+.testimonials .person .john-detail h3 {
+    font-weight: bold;
+}
+
+.testimonials .person .personimg img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.testimonials .person .arrow-icon {
+    color: #023AA2;
+}
+
+
+/* Latest News Section */
+.news .news-header h1 {
+    font-weight: 600;
+    color: #023AA2;
+}
+
+.news .newscard .card .card-title {
+    font-weight: 600;
+}
+.news .newscard .card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.news .newscard .card a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Footer Section */
+
+.footer-part .first-footer-color {
+    background-color: #002A79;
+    color: white;
+} 
+.footer-part .first-footer-div .left-div h2{
+    font-size: calc(1.1rem + .9vw);
+} 
+
+.footer-part .second-footer-color {
+    background-color: #023AA2;
+    color: white;
+} 
+
+
+.footer-part .footer .second-footer-div .logo img{
+    height: 80px;
+    width: 85px;
+}
+.footer-part .footer .second-footer-div .logo{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footer-part .second-footer-div .contact-link {
+    font-size: 25px;
+}
+
+.footer-part .second-footer-div .contact-link a {
+    color: white;
+}
+
+.footer-part .second-footer-div .col-sm-2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-part .second-footer-div .qfi-link li {
+    font-size: 17px;
+    padding-top: 15px;
+}
+
+.footer-part .third-footer-color {
+    background-color: #002A79;
+    color: white;
+}
+
+
+/* --------------------------------------------- About Page Styling  ------------------------------------- */
+
+
+/* Mission home section */
+.mission .mission-background {
+    background: linear-gradient(to top, rgba(245, 246, 252, 0), rgba(2, 58, 168, 0.55)),
+    url(/images/about-page/mission-bg.png) no-repeat center/cover;
+    /* background: url(/images/about-page/mission-bg.png) no-repeat center/cover; */
+    width: 100%;
+    height: 463px;
+}
+.mission .mission-text {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+/* mission body section */
+.mission-body .mission-left .row{
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.mission-body .mission-right .our-vision h1{
+    font-weight: 600;
+}
+.mission-body .mission-right h2{
+    font-weight: 600;
+    color: #023AA2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 63px;
+    border: 1px solid #023AA2;
+    
+}
+.mission-body .mission-right h3{
+    font-weight: 600;
+    font-size: 1.3rem !important;
+}
+
+
+/* -----------------------------------------   Program Page styling   ------------------------------ */
+
+.program .program-background {
+    background: linear-gradient(to top, rgba(245, 246, 252, 0), rgba(2, 58, 168, 0.55)),
+    url(/images/programs/program-bg.png) no-repeat center/cover;
+    /* background: url(/images/programs/program-bg.png) no-repeat center/cover; */
+    width: 100%;
+    height: 463px;
+}
+.program .program-text {
+    color: white;
+    font-size: 20px;
+}
+
+.program-body .container h1,h3{
+    font-weight: 600;
+    color: #023AA2;
+}
+
+
+/* -----------------------------------------   Facilities Page styling   ------------------------------ */
+
+.facility .facility-background {
+    background: url(/images/facilities/facilities-bg.png) no-repeat center/cover;
+    width: 100%;
+    height: 463px;
+}
+.facility .facility-text {
+    color: white;
+    font-size: 20px;
+}
+.facility-body .facility-img img{
+    height: 100%; 
+    width:100%;
+}
+.facility-body .facility-content h1{
+    font-weight: 600;
+    color: #023AA2;
+}
+.facility-body .facility-content .d-flex i{
+    color: #023AA2;
+}
+
+
+
+/* -----------------------------------------   gallery Page styling   ------------------------------ */
+
+.gallery .gallery-background {
+    background: linear-gradient(to top, rgba(245, 246, 252, 0), rgba(2, 58, 168, 0.55)),
+    url(/images/gallery/gallery-bg.png) no-repeat center/cover;
+    /* background: url(/images/gallery/gallery-bg.png) no-repeat center/cover; */
+    width: 100%;
+    height: 463px;
+}
+.gallery .gallery-text {
+    color: white;
+    font-size: 20px;
+}
+
+.gallery-body .text-center h1{
+    font-weight: 600;
+}
+.gallery-body .photo-button button{
+    color: #023AA2;
+    font-weight: 500;
+    background-color: #ced4da;
+    border: 2px solid #ced4da;
+}
+.gallery-body .photo-button .btn.active{
+    color: white;
+    /* font-weight: 500; */
+    background-color: #023AA2;
+    border: 2px solid #023AA2;
+}
+.gallery-body .photopp img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.gallery-body .photo-container .photopp{
+    display: none;
+}
+.gallery-body .photo-container  .photopp.active{
+    display: flex;
+}
+
+
+
+
+
+
+
+/* -----------------------------------------   Contact Us Page styling   ------------------------------ */
+
+.contact .contact-background {
+    background: linear-gradient(to top, rgba(245, 246, 252, 0.1), rgba(2, 58, 168, 0.6)),
+    url(/images/contactus/contact-bg.png) no-repeat center/cover;
+    /* background: url(/images/contactus/contact-bg.png) no-repeat center/cover; */
+    width: 100%;
+    height: 463px;
+}
+.contact .contact-text {
+    color: white;
+    font-size: 20px;
+}
+.contact-body .text-center h1{
+    font-weight: 600;
+}
+
+/* forms css */
+.contact-form .form-margin{
+    position: relative;
+    margin: 32px 0;
+    border: unset;
+}
+.contact-form .input-txt{
+    display: block;
+    width: 100%;
+    /* height: 36px; */
+    border-width: 0 0 2px 0;
+    border-color: #023AA2;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    border-radius: unset;
+  }
+  .contact-form .input-txt:focus {
+    outline: none;
+  }
+  .contact-form .input-txt:focus + .label,
+  .contact-form .input-txt.not-empty + .label {
+    -webkit-transform: translateY(-24px);
+            transform: translateY(-24px);
+  }
+  .contact-form .label {
+    position: absolute;
+    bottom: 35px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    /* color: #023AA2; */
+    cursor: text;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, 
+    -webkit-transform .2s ease-in-out;
+  }
+  .contact-form .submit-btn {
+    display: inline-block;
+    background-color: #064497;
+    /* background-image: linear-gradient(125deg,#4c0be2,#064497); */
+    color: #fff;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    font-size: 13px;
+    padding: 7px 16px;
+    border: none;
+    /* width:150px; */
+    cursor: pointer;
+  }
+  .contact-form .form-check{
+    padding-left: 0%;
+    font-weight: 400;
+  }
+
+
+
+   /* -----------------------------------------   Admission Us Page styling   ------------------------------ */
+
+.admission .admission-background {
+    background: linear-gradient(to top, rgba(245, 246, 252, 0), rgba(2, 58, 168, 0.60)),
+    url(/images/admission/admission-bg.png) no-repeat center/cover;
+    /* background: url(/images/admission/admission-bg.png) no-repeat center/cover; */
+    width: 100%;
+    height: 463px;
+}
+.admission .admission-text {
+    color: white;
+    font-size: 20px;
+}
+.admission-body .header-text h1{
+    font-weight: 600;
+    color: #023AA2;
+}
+.admission-body .admit-form h3{
+    font-weight: 500;
+    color: black;
+}
+
+.admission-body .admit-form .form-group{
+    position: relative;
+    margin: 10px 0;
+    border: unset;
+}
+.admission-body .admit-form label{
+    font-size: 17px;
+    line-height: 40px;
+  }
+  .admission-body .admit-form .form-control{
+    width: 100%;
+    height: 40px;
+  }
+
+  .admission-body .admit-form .submit-btn {
+    background-color: #064497;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 13px;
+    padding: 7px 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+/* -----------------------------------------   Notice Page styling   ------------------------------ */
+
+
+.notice .notice-background {
+    background: linear-gradient(to top, rgba(245, 246, 252, 0), rgba(2, 58, 168, 0.60)),
+    url(/images/notice/notice-bg.png) no-repeat center/cover;
+    /* background: url(/images/notice/notice-bg.png) no-repeat center/cover; */
+    width: 100%;
+    height: 463px;
+}
+.notice .notice-text {
+    color: white;
+    font-size: 20px;
+}
+
+.notice-body .header-text h1{
+    font-weight: 600;
+    color: #023AA2;
+}
+
+/* News Card Section */
+
+
+/* .notice-body .newscard .card {
+    width: 22rem !important;
+} */
+
+.notice-body .newscard .card .card-title {
+    font-weight: 600;
+}
+
+.notice-body .newscard .card a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.notice-body .newscard .card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+

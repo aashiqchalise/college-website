@@ -1,0 +1,129 @@
+/* ==========================================    Media Query Start     ==============================*/
+
+
+@media (max-width: 1440px) {}
+
+
+
+@media (max-width: 1024px) {
+
+    /* Navbar Styling */
+    #header .logo {
+        margin-left: 10px;
+    }
+
+    #header .logo img {
+        height: 75px;
+        width: 250px;
+    }
+
+    #header .navbar-nav .nav-item .nav-link {
+        padding: 0.5rem 0.9rem;
+    }
+
+    /* background styling */
+    .home .home-banner1,
+    .home .home-banner2 {
+        height: 450px;
+    }
+
+    /* -----------    Overall Background style      ----------- */
+    #overall-bg{
+        height: 395px;
+    }
+
+
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    /* Navbar styling */
+    .navbar .collapse .admit-button {
+        text-align: center !important;
+    }
+
+    /* footer styling */
+    .footer-part .footer .second-footer-div .logo img {
+        height: 75px;
+        width: 250px;
+    }
+     /* -----------    Overall Background style      ----------- */
+     #overall-bg{
+        height: 370px;
+    }
+
+    /* -----------    Contact style      ----------- */
+    .contact-body .mapouter iframe{
+        height: 190px;
+    }
+
+    /* -----------    Facility Us style      ----------- */
+    .facility-body .facility-content .d-flex p{
+        margin-bottom: 0.2rem;
+    }
+
+}
+
+
+
+
+@media (max-width: 425px) {
+
+    /* Footer Styling */
+    .footer-part .first-footer-color .left-div {
+        text-align: center;
+    }
+
+    .footer-part .first-footer-color .right-div .input-group-media {
+        width: 84% !important;
+        padding-right: 61px;
+
+    }
+
+    .footer-part .second-footer-div .qfi-media {
+        margin-top: 15px;
+    }
+
+    .footer-part .second-footer-div .qfi-link li {
+        padding-top: 7px;
+    }
+
+    #middle-card .middle-card .row img{
+        height: 40px;
+     }
+
+    /* -----------    Overall Background style      ----------- */
+    #overall-bg{
+        height: 315px;
+    }
+
+
+    /* ----------   Admission Styling    ------------ */
+    .admission-body .admit-form label {
+        line-height: unset;
+    }
+
+    /* ----------   Facility Styling    ------------ */
+    .facility-body .facility-img .facility3{
+        padding-top: 15px;
+        height: 175px;
+    }
+}
+
+
+
+
+@media (max-width: 375px) {}
+
+
+
+@media (max-width: 320px) {
+    #header .logo img {
+        height: 75px;
+        width: 215px;
+    }
+}
